@@ -1,10 +1,26 @@
 
+really good course
+https://www.udemy.com/course/ffmpeg-the-complete-guide/
+
+
 https://github.com/szatmary/libavinc
 https://www.youtube.com/watch?v=fk1bxHi6iSI&t=12s
 https://hackmd.io/@Henry-Zhou/Byc0GT-HF
 https://github.com/mpenkov/ffmpeg-tutorial
 
-https://www.udemy.com/course/ffmpeg-the-complete-guide/
 
+when trying to compile on my machine i got some errors to do with the order in the command
+gcc -g -o remux remux.c -L/usr/local/lib/ -I/usr/local/include -lavformat -lavcodec -lavdevice -lavutil -lswresample -lz -lm -lpthread
+but i think in the end the above worked.
+in general maybe below can be useful
+https://stackoverflow.com/questions/4255347/how-do-i-resolve-linker-library-order-problems
+
+
+also in FFMPEG github repo, the code builds ok
+can play with examples, to build them i think 'make examples'
+
+
+TODO
+in FFMPEG github repo to analyse - ffplay, ffprobe
 
 
